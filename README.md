@@ -1,12 +1,16 @@
 # AIV TextGame
 
-A tiny turn-based text RPG in C++. Fight enemies one by one: each turn you
-attack or heal, then the enemy hits back. Kill an enemy and you may grab a new
-weapon. Win by clearing them all, lose if your HP hits zero.
+A small turn-based RPG in C++: lead a party against a horde of enemies. Ranged
+weapons run on limited ammo, fighters get enraged at low HP, and the AI focus-fires
+the weakest target. The fight is driven by a small state-machine combat loop.
 
 ## Demo
 
-![gameplay](demo/aiv_textgame.gif)
+![party vs horde](demo/aiv_textgame_v2.gif)
+
+### Before — the original 1v1 version
+
+![original 1v1](demo/aiv_textgame.gif)
 
 ## Run
 

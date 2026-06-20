@@ -8,11 +8,11 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(game
     src/main.cpp
-    src/game/game.cpp
-    src/game/character.cpp
-    src/game/enemy.cpp
     src/game/damageable.cpp
-    src/game/gameEventManager.cpp
+    src/game/combatant.cpp
+    src/game/controller.cpp
+    src/game/battle.cpp
+    src/game/combatState.cpp
 )
 
 target_include_directories(game PRIVATE include)
