@@ -8,8 +8,6 @@ weapon. Win by clearing them all, lose if your HP hits zero.
 
 ![gameplay](demo/aiv_textgame.gif)
 
-[Full-quality MP4](demo/aiv_textgame.mp4)
-
 ## Run
 
 ```bash
