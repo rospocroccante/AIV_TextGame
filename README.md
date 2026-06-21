@@ -10,6 +10,10 @@ the weakest target. The fight is driven by a small state-machine combat loop.
 
 ### Before — the original 1v1 version
 
+Where it started: one hero against one enemy at a time. Same OOP core (entities,
+weapons, damage), just before the party, the horde and the ranged weapons turned
+it into a real fight.
+
 ![original 1v1](demo/aiv_textgame.gif)
 
 ## Run
